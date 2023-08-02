@@ -1544,7 +1544,7 @@ section {
   text-align: left;
   padding: 15px;
   font-weight: 600;
-  height: fit-content;
+  height: 100vh;
 }
 
 .contact .php-email-form .error-message br+br {
