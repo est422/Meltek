@@ -78,7 +78,7 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.sent-message').innerHTML = "Sent Email " + error;
+    thisForm.querySelector('.sent-message').innerHTML = "Sent Email";
     thisForm.querySelector('.sent-message').classList.add('d-block');
   }
 
