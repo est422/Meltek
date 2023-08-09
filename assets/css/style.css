@@ -559,6 +559,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  #hero p {
+    width: 50%;
+  }
+  
   #hero {
     height: 50vh;
   }
