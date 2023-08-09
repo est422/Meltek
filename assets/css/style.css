@@ -584,11 +584,16 @@ h6 {
   }
 
   #hero {
-    height: 70vh;
+    height: 90vh;
   }
 
   #hero .carousel-item {
-    height: 70vh;
+    height: 90vh;
+  }
+
+  #hero .carousel-item .img {
+    object-fit: fill;
+    
   }
 
   #hero .carousel-control-prev,
