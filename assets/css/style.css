@@ -561,11 +561,11 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 90vh;
+    height: 100vh;
   }
 
   #hero .carousel-item {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
