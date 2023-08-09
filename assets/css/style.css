@@ -562,12 +562,13 @@ h6 {
   #hero p {
     width: 50%;
   }
-  
+
   #hero {
     height: 50vh;
   }
 
   #hero .carousel-item {
+    /* width: 50%; */
     height: 50vh;
   }
 
