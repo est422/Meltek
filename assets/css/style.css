@@ -413,9 +413,10 @@ h6 {
   height: 90vh;
   object-fit: fill;
   image-rendering: pixelated;
-  /* object-fit: cover;
-    object-position: center;
-    overflow: hidden; */
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
 }
 
 #hero .carousel-item::before {
