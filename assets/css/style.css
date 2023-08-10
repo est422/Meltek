@@ -110,7 +110,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 100px;
+  height: 70px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -138,9 +138,9 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  width: 150px;
+  width: 120px;
   margin: 0;
-  /* max-height: 67px; */
+  max-height: 67px;
 }
 
 .scrolled-offset {
